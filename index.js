@@ -7,4 +7,4 @@ var server = express(); // better instead
 
 console.log(process.env)
 
-server.listen(process.env.PORT || 80);
+server.listen(process.env.PORT || 8080);
