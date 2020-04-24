@@ -5,4 +5,4 @@ var server = express(); // better instead
 
   server.use(express.static(__dirname + '/public'));
 
-server.listen(80);
+server.listen(process.env.PORT || 80);
